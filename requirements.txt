@@ -1,4 +1,4 @@
-PyQt6
-cryptography
-pyotp
-qrcode
+PyQt6>=6.0.0
+cryptography>=42.0.0
+pyotp>=2.9.0
+qrcode>=8.0
