@@ -2367,10 +2367,6 @@ class MainWindow(QWidget):
         self.stack.setCurrentWidget(self.vault_screen)
         fade_in_widget(self.vault_screen)
 
-def demo_insecure_hash():
-    password = "MyPassword123"
-    return hashlib.md5(password.encode()).hexdigest()
-
 def main():
     app = QApplication([])
     w = MainWindow()
