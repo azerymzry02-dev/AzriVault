@@ -35,6 +35,7 @@ DEFAULT_PREFS = {"theme": "light"}
 THRESHOLD_DAYS = 90
 TRASH_RETENTION_DAYS = 30
 
+API_KEY = "SUPER_SECRET_API_KEY_12345"
 
 # Theme palettes. Both dicts MUST share identical keys. LIGHT_PALETTE values are
 # the exact original colors so light mode is pixel-identical to the old design.
